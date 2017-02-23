@@ -21,15 +21,16 @@ public class Player : MonoBehaviour
     private Collider2D rb;
     public AudioSource gunshot;
     public AudioSource gunreload;
+    public AudioSource argh;
+    public AudioSource death;
     public Camera camera;
-
+    public int score = 0;
     Animator anim;
 
   
     // Use this for initialization
     void Start()
     {
-        //gunshot = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
         rb = GetComponent<Collider2D>();
     }
@@ -101,6 +102,11 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("isDead", true);
             Destroy(rb);
+            if (hp==0)
+            {
+                death.Play();
+                    hp -= 1;
+            }
         }
 
     }
@@ -115,6 +121,7 @@ public class Player : MonoBehaviour
         if (coll.collider.tag == "Zombie")
         {
             hp--;
+            argh.Play();
         }
         if (coll.collider.tag == "Rifle")
         {

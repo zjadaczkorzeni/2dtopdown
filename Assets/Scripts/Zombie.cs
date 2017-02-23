@@ -17,6 +17,7 @@ public class Zombie : MonoBehaviour
     public GameObject Rifle;
     public int rifle;
     public bool weapon;
+    public bool scored = false;
     public GameObject Blood;
     public static Player playerInstance;
     public static bool rifleDrop = false;
@@ -44,13 +45,14 @@ public class Zombie : MonoBehaviour
             anim.SetBool("isDead", true);
             Destroy(gameObject, corpseTime);
             Destroy(rb);
+            Invoke("Score",0);
             Vector3 deadPosition = new Vector3(transform.position.x, transform.position.y, -0.5f);
             transform.position = deadPosition;            
             if (rifle == 0 && weapon==false)
                 RifleSpawn();
             
         }
-        if (isDead == false)
+        if (isDead == false&&playerInstance.hp>0)
         {
 
             Vector3 dir = target.position - transform.position;
@@ -58,7 +60,8 @@ public class Zombie : MonoBehaviour
             transform.position += (target.position - transform.position).normalized * speed * Time.deltaTime;
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.FromToRotation(Vector3.right, dir), rotationSpeed * Time.deltaTime);
         }
-      
+        if (playerInstance.hp <= 0)
+            Destroy(rb);
 
     }
 
@@ -70,7 +73,14 @@ public class Zombie : MonoBehaviour
             Instantiate(Blood, transform.position, transform.rotation);
         }
     }
-    
+    void Score()
+    {
+        if (!scored)
+        {
+            playerInstance.score += 1;
+            scored = true;
+        }
+    }
     void RifleSpawn()
     {
         if(!rifleDrop) {

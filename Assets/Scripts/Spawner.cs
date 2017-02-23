@@ -35,15 +35,16 @@ public class Spawner : MonoBehaviour {
 
     void Spawn()
 	{
-        
-		Vector3 spawnPosition = new Vector3();
-		spawnPosition.x = Random.Range(-5, 8);
-		spawnPosition.y = Random.Range(-5, 3);
-		spawnPosition.z = -1;
-		Zombie temp = Instantiate<Zombie>(zombie, spawnPosition, transform.rotation);
-		temp.hp = Random.Range(1, 5);
-        temp.rifle = Random.Range(0, 7);
-     
+        if (playerInstance.hp > 0)
+        {
+            Vector3 spawnPosition = new Vector3();
+            spawnPosition.x = Random.Range(-5, 8);
+            spawnPosition.y = Random.Range(-5, 3);
+            spawnPosition.z = -1;
+            Zombie temp = Instantiate<Zombie>(zombie, spawnPosition, transform.rotation);
+            temp.hp = Random.Range(1, 5);
+            temp.rifle = Random.Range(0, 7);
+        }
 
 
     }
