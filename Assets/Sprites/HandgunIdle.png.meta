@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: d09378ada5e52fa439a8475c235404cc
+timeCreated: 1485859006
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HandgunIdle_0
+    21300002: HandgunIdle_1
+    21300004: HandgunIdle_2
+    21300006: HandgunIdle_3
+    21300008: HandgunIdle_4
+    21300010: HandgunIdle_5
+    21300012: HandgunIdle_6
+    21300014: HandgunIdle_7
+    21300016: HandgunIdle_8
+    21300018: HandgunIdle_9
+    21300020: HandgunIdle_10
+    21300022: HandgunIdle_11
+    21300024: HandgunIdle_12
+    21300026: HandgunIdle_13
+    21300028: HandgunIdle_14
+    21300030: HandgunIdle_15
+    21300032: HandgunIdle_16
+    21300034: HandgunIdle_17
+    21300036: HandgunIdle_18
+    21300038: HandgunIdle_19
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HandgunIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 581
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 581
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_2
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 581
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_3
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 581
+        width: 209
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_4
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 582
+        width: 209
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_5
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 582
+        width: 209
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_6
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 583
+        width: 209
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_7
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 583
+        width: 209
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 358
+        width: 209
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 358
+        width: 209
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_10
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 358
+        width: 209
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 358
+        width: 209
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_12
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 357
+        width: 209
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_13
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 359
+        width: 209
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_14
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 357
+        width: 209
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_15
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 356
+        width: 209
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 209
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 127
+        width: 209
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_18
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 127
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunIdle_19
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 127
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 184ded55401b77e4c813d2918031df1e
+timeCreated: 1485859023
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HandgunMove_0
+    21300002: HandgunMove_1
+    21300004: HandgunMove_2
+    21300006: HandgunMove_3
+    21300008: HandgunMove_4
+    21300010: HandgunMove_5
+    21300012: HandgunMove_6
+    21300014: HandgunMove_7
+    21300016: HandgunMove_8
+    21300018: HandgunMove_9
+    21300020: HandgunMove_10
+    21300022: HandgunMove_11
+    21300024: HandgunMove_12
+    21300026: HandgunMove_13
+    21300028: HandgunMove_14
+    21300030: HandgunMove_15
+    21300032: HandgunMove_16
+    21300034: HandgunMove_17
+    21300036: HandgunMove_18
+    21300038: HandgunMove_19
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HandgunMove_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 581
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 581
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_2
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 581
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_3
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 581
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_4
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 580
+        width: 210
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_5
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 579
+        width: 211
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_6
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 579
+        width: 211
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_7
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 578
+        width: 212
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 212
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 357
+        width: 212
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_10
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 356
+        width: 212
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_11
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 356
+        width: 212
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_12
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 356
+        width: 212
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_13
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 356
+        width: 212
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_14
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 356
+        width: 211
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_15
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 355
+        width: 211
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 134
+        width: 210
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 135
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_18
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 135
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HandgunMove_19
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 135
+        width: 210
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
