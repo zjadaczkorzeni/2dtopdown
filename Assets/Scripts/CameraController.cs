@@ -16,8 +16,8 @@ public class CameraController : MonoBehaviour {
         Vector3 dir = target.position - transform.position;
         dir.z = 0.0f;
         transform.position += dir * speed * Time.deltaTime;
-        Vector3 maxPos = new Vector3(7.8f, 0, -10);
-        Vector3 minPos = new Vector3(-0.1f, -4.2f, -10);
+        Vector3 maxPos = new Vector3(8.9f, 0, -10);
+        Vector3 minPos = new Vector3(-1f, -4.2f, -10);
         if (transform.position.x >= maxPos.x)
             transform.position = new Vector3(maxPos.x, transform.position.y, transform.position.z);
         if (transform.position.y >= maxPos.y)

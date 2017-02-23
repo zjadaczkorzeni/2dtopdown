@@ -58,18 +58,16 @@ public class Player : MonoBehaviour
                 transform.position += Vector3.down * speed * Time.deltaTime;
 
             Vector3 pos = Camera.main.WorldToScreenPoint(transform.position);
-            Vector3 dir = Input.mousePosition - pos;
-
             Vector3 mousPosInworld = camera.ScreenToWorldPoint(Input.mousePosition);
             Debug.Log(Input.mousePosition + " -> " + mousPosInworld);
-            Debug.DrawLine(Barrel.transform.position, mousPosInworld, Color.red);
-            Vector3 targetDir = mousPosInworld - Barrel.transform.position;
+            Debug.DrawLine(transform.position, mousPosInworld, Color.red);
+            Vector3 targetDir = mousPosInworld - transform.position;
 
             //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
             float angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            transform.rotation = Quaternion.AngleAxis(angle+3, Vector3.forward);
 
             if(isReloading == true)
                 Invoke("reload", reloadTime);

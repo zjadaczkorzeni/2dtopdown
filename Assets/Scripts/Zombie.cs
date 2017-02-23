@@ -52,7 +52,7 @@ public class Zombie : MonoBehaviour
         }
         if (isDead == false)
         {
-            
+
             Vector3 dir = target.position - transform.position;
             dir.z = 0.0f;
             transform.position += (target.position - transform.position).normalized * speed * Time.deltaTime;
