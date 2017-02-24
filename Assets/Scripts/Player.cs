@@ -102,10 +102,10 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("isDead", true);
             Destroy(rb);
-            if (hp==0)
+            if (hp<=0&&hp>-3)
             {
                 death.Play();
-                    hp -= 1;
+                    hp -= 4;
             }
         }
 
