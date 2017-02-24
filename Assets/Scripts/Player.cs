@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -105,6 +106,8 @@ public class Player : MonoBehaviour
                 scoreDisp.text = "you have killed " + score.ToString() +" zombies";
                 hp -= 4;
                 transform.rotation = Quaternion.Euler(0,0,0);
+                if (Input.GetButton("Cancel") ==true)
+                    SceneManager.GetActiveScene();
             }
         }
         healthBar.fillAmount = ((float)hp/(float)hpMax);
