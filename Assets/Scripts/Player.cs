@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -8,7 +9,8 @@ public class Player : MonoBehaviour
     public bool handgun = true;
     public bool rifle;
     public bool isReloading = false;
-    public int hp = 5;
+    public int hp;
+    public int hpMax=10;
     public float speed = 1f;
     public float ammo=10;
     public float clipSize = 10;
@@ -25,14 +27,16 @@ public class Player : MonoBehaviour
     public AudioSource death;
     public Camera camera;
     public int score = 0;
+    public Image ammoBar;
+    public Image healthBar;
+    public Text scoreDisp;
     Animator anim;
-
-  
     // Use this for initialization
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Collider2D>();
+        hp = hpMax;
     }
     // Update is called once per frame
     void Update()
@@ -46,8 +50,6 @@ public class Player : MonoBehaviour
             anim.SetBool("isWalking", Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0 ? true : false);
             anim.SetBool("rifle", rifle);
             anim.SetBool("isReloading", isReloading);
-
-
 
             if (Input.GetAxis("Horizontal") < 0)
                 transform.position += Vector3.left * speed * Time.deltaTime;
@@ -70,18 +72,17 @@ public class Player : MonoBehaviour
             float angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(angle+3, Vector3.forward);
 
-            if(isReloading == true)
-                Invoke("reload", reloadTime);
-            if (Input.GetButtonDown("Reload") || ammo <= 0)
+            
+            if (ammo <= 0|| Input.GetButtonDown("Reload")==true)
             {
                 gunreload.Play();
-                isReloading = true;
-                ammo = clipSize;
                 anim.SetTrigger("Reload");
+                ammo = clipSize;
+                isReloading = true;
+
             }
-
-
-
+            if (isReloading == true)
+                Invoke("reload", reloadTime);
             currentTime += Time.deltaTime;
 
             if (Input.GetButton("Fire1") || Input.GetButton("Fire2") || Input.GetButton("Fire3"))
@@ -93,10 +94,6 @@ public class Player : MonoBehaviour
                     GameObject spawnedBullet = Instantiate(Bullet, Barrel.transform.position, Quaternion.Euler(Barrel.transform.eulerAngles));
                     spawnedBullet.GetComponent<Bullet>().direction = Barrel.transform.right;
                 }
-
-
-
-
         }
         else
         {
@@ -105,16 +102,20 @@ public class Player : MonoBehaviour
             if (hp<=0&&hp>-3)
             {
                 death.Play();
-                    hp -= 4;
+                scoreDisp.text = "you have killed " + score.ToString() +" zombies";
+                hp -= 4;
+                transform.rotation = Quaternion.Euler(0,0,0);
             }
         }
+        healthBar.fillAmount = ((float)hp/(float)hpMax);
+        ammoBar.fillAmount = ((float)ammo / (float)clipSize);
 
     }
 
     public void reload()
     {
         isReloading = false;
-        
+        CancelInvoke();     
     }
     void OnCollisionEnter2D(Collision2D coll)
     {
