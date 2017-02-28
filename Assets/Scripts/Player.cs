@@ -107,7 +107,7 @@ public class Player : MonoBehaviour
                 hp -= 4;
                 transform.rotation = Quaternion.Euler(0,0,0);
                 if (Input.GetButton("Cancel") ==true)
-                    SceneManager.GetActiveScene();
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
         healthBar.fillAmount = ((float)hp/(float)hpMax);
